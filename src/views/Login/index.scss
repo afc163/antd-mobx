@@ -1,0 +1,125 @@
+.xy-login-wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #F7FAFD;
+
+  .xy-login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -535.5px;
+    margin-top: -300px;
+    width: 1071px;
+    height: 600px;
+    background: linear-gradient(157deg, rgba(24, 142, 224, 1) 0%, rgba(23, 105, 203, 1) 100%);
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 0 7px 7px rgba(150, 150, 150, .2);
+
+    .xy-login-logo {
+      position: absolute;
+      top: -88px;
+      left: 5px;
+      width: 122px;
+      height: 55px;
+    }
+
+    .xy-login-left {
+      position: relative;
+      flex: 1;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+
+      .xy-login-title {
+        position: absolute;
+        top: 31px;
+        left: 47px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 42px;
+      }
+
+      .xy-login-desc {
+        position: absolute;
+        top: 78px;
+        left: 47px;
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.79);
+        line-height: 30px;
+      }
+
+      .xy-login-left-img {
+        width: 556px;
+        height: 462px;
+      }
+    }
+
+    .xy-login-right {
+      width: 415px;
+      height: 100%;
+      background: #fff;
+      border-radius: 0 8px 8px 0;
+      padding: 77px 65px 117px;
+
+      .xy-login-title {
+        margin-bottom: 41px;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgba(44, 138, 237, 1);
+        text-align: center;
+      }
+
+      .xy-login-btn {
+        margin-top: 53px;
+        height: 40px;
+        background: #2C8AED;
+        border-radius: 3px;
+        font-size: 15px;
+      }
+    }
+
+    /* form表单 */
+    .ant-form {
+
+      .ant-form-item {
+        margin-bottom: 39px;
+
+        &.ant-form-item-with-help {
+          margin-bottom: 11px;
+        }
+
+        .ant-form-item-control {
+          .ant-input {
+            border: 0;
+            border-bottom: 1px solid #555;
+            border-radius: 0;
+            font-size: 18px;
+            padding: 20px 3px;
+
+            &:focus {
+              border-bottom-color: #2C8AED;
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            }
+          }
+
+          &.has-error {
+            .ant-input {
+              border-bottom-color: #f5222d;
+            }
+          }
+
+          .ant-form-explain {
+            margin-top: 7px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
