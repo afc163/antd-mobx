@@ -1,0 +1,1 @@
+mobx加form表单，当mobx中绑定到form表单的数据改变时，不会触发mapPropsToFields方法
