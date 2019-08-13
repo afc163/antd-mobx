@@ -46,6 +46,7 @@ class Login extends Component {
   }
 
   render() {
+    const { loginForm: { formData } } = this.props;
     return (
       <div className="xy-login-wrap">
         <div className="xy-login-container">
